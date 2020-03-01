@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_Amos",
     "eventList": [
-        
+        {
+            "id": "5b313531-3d46-4e17-86ee-51fb6b444665",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2a08d0b8-bd53-4e25-b244-8ced8f1d1f6f"
+        },
+        {
+            "id": "eaf374b0-c130-4d72-9596-7dc4361ba8a0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "2a08d0b8-bd53-4e25-b244-8ced8f1d1f6f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

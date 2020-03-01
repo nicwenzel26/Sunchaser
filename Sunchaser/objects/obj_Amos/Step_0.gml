@@ -7,6 +7,10 @@ inputDown = keyboard_check(ord("S"))
 inputWalk = keyboard_check(vk_control)
 inputRun = keyboard_check(vk_shift)
 
+
+
+
+
 //ALTER SPEED
 if(inputWalk) {
 	playerSpeed = walkingSpeed
@@ -37,3 +41,24 @@ if(moveY == 0) {
 
 x += moveX
 y += moveY
+
+
+//Setting animation based on movement
+if(moveX < 0) {
+	sprite_index = spr_Amos_Left	
+}
+
+else if(moveX > 0) {
+	sprite_index = spr_Amos_Right
+}
+
+else if(moveY > 0) {
+	sprite_index = spr_Amos_Down	
+}
+
+else if(moveY < 0) {
+	sprite_index = spr_Amos_Up
+}
+
+else image_index = 0
+

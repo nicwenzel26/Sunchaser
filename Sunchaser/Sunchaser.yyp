@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "31fc9405-ce73-4c7c-8728-853338515b3a",
+            "Value": {
+                "id": "996fee0a-d4e0-4a4b-a0e1-468d8a7601e0",
+                "resourcePath": "views\\31fc9405-ce73-4c7c-8728-853338515b3a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "341d0093-9072-4ecb-8758-bdfba7d47890",
             "Value": {
                 "id": "7882b1f7-5410-469d-90b6-0b391d4cc9b7",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "76e65870-8de5-4fc5-ba55-41cca1e873c1",
+            "Value": {
+                "id": "02c1a82a-9425-4f22-9201-89e62c9d7d3a",
+                "resourcePath": "objects\\obj_AlienGuard\\obj_AlienGuard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7853fd4e-9d83-44f8-acae-e357d2cbb3f7",
             "Value": {
                 "id": "e5830ef0-abf7-4497-84e6-c54c530501fd",
@@ -263,6 +279,14 @@
             }
         },
         {
+            "Key": "a80dbf48-5e0b-491e-97b7-10b63fe519b4",
+            "Value": {
+                "id": "7d143f6a-b0e4-412e-9f5e-162db10e05fb",
+                "resourcePath": "views\\a80dbf48-5e0b-491e-97b7-10b63fe519b4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b490f00c-28fd-45c8-93d7-401e2b4acf1e",
             "Value": {
                 "id": "28ed3fd5-00ad-4acb-a2bd-fffa31af52a4",
@@ -324,6 +348,22 @@
                 "id": "78f2ea46-f9d4-4b20-80d5-f02bec8ddbc3",
                 "resourcePath": "views\\e1132f18-2267-4415-8111-27dfc88fafad.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e1766e98-4278-4850-b466-94d2a7598f39",
+            "Value": {
+                "id": "7f97ea5d-9425-4ad8-9ad7-0131ecbbb54e",
+                "resourcePath": "views\\e1766e98-4278-4850-b466-94d2a7598f39.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee0a5ae0-b3f1-4c3b-85d6-c37c46378ad6",
+            "Value": {
+                "id": "aed5dcda-6b99-470a-ba76-8c5b21a73241",
+                "resourcePath": "sprites\\spr_Alien_Gaurd_Down_Still\\spr_Alien_Gaurd_Down_Still.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

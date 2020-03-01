@@ -39,9 +39,10 @@ if(moveY == 0) {
 
 //APPLY MOVEMENT
 
-x += moveX
-y += moveY
-
+if(canMove) {
+	x += moveX
+	y += moveY
+}
 
 //Setting animation based on movement
 if(moveX < 0) {

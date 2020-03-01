@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0e4527c2-d7fb-41dc-9747-17e55b71ed3e",
+            "Value": {
+                "id": "74f4ef15-7940-4dba-997e-b936b363cb0b",
+                "resourcePath": "sprites\\spr_Paratheana_Down\\spr_Paratheana_Down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "208fa8ae-9e97-4f24-bd63-2864ae0668b1",
             "Value": {
                 "id": "df12fd0e-67ec-46b6-a6d4-b11788296aa3",
@@ -76,6 +84,14 @@
                 "id": "7882b1f7-5410-469d-90b6-0b391d4cc9b7",
                 "resourcePath": "views\\341d0093-9072-4ecb-8758-bdfba7d47890.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3999462f-7e05-431a-8d2d-743a5c2d7b36",
+            "Value": {
+                "id": "cbe4be20-25c8-438a-bad1-e453bba8593e",
+                "resourcePath": "sprites\\spr_Paratheana_Left\\spr_Paratheana_Left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -124,6 +140,14 @@
                 "id": "09448b67-7f37-45f1-8057-974659bc9381",
                 "resourcePath": "views\\4cee54f1-afe8-47e7-8fc6-31d7e54a2664.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "51517298-f3a2-4d57-b86b-41d6d1e18dfa",
+            "Value": {
+                "id": "df9f95f1-aeee-421c-8e56-21f7bff07d31",
+                "resourcePath": "sprites\\spr_Paratheana_Right\\spr_Paratheana_Right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -215,6 +239,22 @@
             }
         },
         {
+            "Key": "9a1deb24-b6f7-4aa4-8d25-ba1364456e6e",
+            "Value": {
+                "id": "95248784-d065-4739-8e1b-542bdb5b01c1",
+                "resourcePath": "views\\9a1deb24-b6f7-4aa4-8d25-ba1364456e6e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9fb08d7b-ec66-4a64-88be-970c2cc2ca77",
+            "Value": {
+                "id": "dea17cb1-903a-4e20-91b6-23d514c9cf03",
+                "resourcePath": "sprites\\spr_Paratheana_Up\\spr_Paratheana_Up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a1eebf74-e2c4-40b9-a546-351f52620e93",
             "Value": {
                 "id": "613fd29a-cd07-46fa-be2c-5aff3f99b1fb",
@@ -228,6 +268,14 @@
                 "id": "28ed3fd5-00ad-4acb-a2bd-fffa31af52a4",
                 "resourcePath": "views\\b490f00c-28fd-45c8-93d7-401e2b4acf1e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b8a39b23-6f9e-43f0-9d27-17284dd6372c",
+            "Value": {
+                "id": "0a495331-4dcb-460d-9ed0-8fd9483b1b14",
+                "resourcePath": "objects\\obj_Paratheana\\obj_Paratheana.yy",
+                "resourceType": "GMObject"
             }
         },
         {

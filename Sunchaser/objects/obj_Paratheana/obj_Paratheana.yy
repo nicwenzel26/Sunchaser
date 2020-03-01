@@ -1,8 +1,8 @@
 {
-    "id": "3d678ea5-b1f7-4e19-8e55-1eebc7cd86c3",
+    "id": "b8a39b23-6f9e-43f0-9d27-17284dd6372c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Hyperion",
+    "name": "obj_Paratheana",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "dabe20cf-f877-4d95-a059-004881044117",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

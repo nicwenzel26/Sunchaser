@@ -1,48 +1,28 @@
 {
-    "id": "2a08d0b8-bd53-4e25-b244-8ced8f1d1f6f",
+    "id": "bad75376-cdb3-4df6-be4e-42086a3c4236",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Amos",
+    "name": "Camera",
     "eventList": [
         {
-            "id": "5b313531-3d46-4e17-86ee-51fb6b444665",
+            "id": "bf830754-d5c2-4002-a398-7a3583b35ab3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "2a08d0b8-bd53-4e25-b244-8ced8f1d1f6f"
+            "m_owner": "bad75376-cdb3-4df6-be4e-42086a3c4236"
         },
         {
-            "id": "eaf374b0-c130-4d72-9596-7dc4361ba8a0",
+            "id": "bfac3245-527d-401b-8266-66234bfb9b1e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "2a08d0b8-bd53-4e25-b244-8ced8f1d1f6f"
-        },
-        {
-            "id": "75b09005-9ea0-4455-96d7-28f6eb9685a4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "76e65870-8de5-4fc5-ba55-41cca1e873c1",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "2a08d0b8-bd53-4e25-b244-8ced8f1d1f6f"
-        },
-        {
-            "id": "3c9e2305-ea16-4d0f-a7c3-a650c7452443",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "a8651d62-8c7a-4792-9527-87cb10ba6873",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "2a08d0b8-bd53-4e25-b244-8ced8f1d1f6f"
+            "m_owner": "bad75376-cdb3-4df6-be4e-42086a3c4236"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -63,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "87d39d9a-589b-4a45-9b84-2d9780a056c1",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -1,7 +1,14 @@
 if(room == CombatRoom) {
 	sprite_index = spr_Amos_Right_Still
+	
+	//COMBAT
+	if(keyboard_check_pressed(vk_space)) {
+		Attack(attack_power,chance_mod, AG2)
+	}
+	
 	exit
 }
+
 
 //UPDATE INPUT
 inputLeft = keyboard_check(ord("A"))
@@ -10,6 +17,7 @@ inputUp = keyboard_check(ord("W"))
 inputDown = keyboard_check(ord("S"))
 inputWalk = keyboard_check(vk_control)
 inputRun = keyboard_check(vk_shift)
+
 
 //ALTER SPEED
 if(inputWalk) {

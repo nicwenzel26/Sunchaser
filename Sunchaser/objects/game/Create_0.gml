@@ -1,4 +1,4 @@
-
+randomize()
 room_goto_next()
 
 //Getting the gui height and width to cover the whole screen

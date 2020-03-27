@@ -22,3 +22,5 @@ facing = 0
 your_turn = true
 current_hp = 12
 total_hp = 12
+attack_power = 2
+chance_mod = 45

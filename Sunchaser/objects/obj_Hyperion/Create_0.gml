@@ -14,6 +14,6 @@ moveY = 0
 
 
 //COMBAT STATS
-your_turn = true
+your_turn = false
 current_hp = 10
 total_hp = 10

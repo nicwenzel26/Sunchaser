@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "b0f85516-ecf3-43e6-9986-5325d40d8abe",
+            "Value": {
+                "id": "8d8d207d-a6f1-455c-9907-bf64efbc1443",
+                "resourcePath": "scripts\\Attack\\Attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b1c11a8a-7272-4871-bbd1-ec9b1578e5cf",
             "Value": {
                 "id": "dad93947-7981-4416-9769-79ad76df6a68",
@@ -491,6 +499,14 @@
             "Value": {
                 "id": "f6d3a477-7b83-4beb-a568-b33c416e7960",
                 "resourcePath": "sprites\\sprExterior\\sprExterior.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d0da7df4-ea9f-4c6d-9489-e6a9c2af956f",
+            "Value": {
+                "id": "bdaecb01-6d2c-4cb8-ba6d-97df24ddbb65",
+                "resourcePath": "sprites\\spr_selected_enemy\\spr_selected_enemy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -584,7 +600,7 @@
         }
     ],
     "script_order": [
-        
+        "b0f85516-ecf3-43e6-9986-5325d40d8abe"
     ],
     "tutorial": ""
 }

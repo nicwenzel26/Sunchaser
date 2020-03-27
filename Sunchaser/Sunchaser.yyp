@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "aaf8f8ab-5fe8-4e7a-9d96-fa4fed9a5ee2",
+            "Value": {
+                "id": "6767acc5-8a48-4021-89f5-4f5fc267fa85",
+                "resourcePath": "rooms\\CombatRoom\\CombatRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b1c11a8a-7272-4871-bbd1-ec9b1578e5cf",
             "Value": {
                 "id": "dad93947-7981-4416-9769-79ad76df6a68",

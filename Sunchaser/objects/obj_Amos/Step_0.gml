@@ -29,6 +29,33 @@ if(moveY == 0) {
 	moveX = (inputRight - inputLeft) * playerSpeed
 }
 
+if(moveX != 0) {
+	switch(sign(moveX)) {
+		case 1: facing = dir.right; break
+		case -1: facing = dir.left; break
+	}
+}
+
+else if(moveY != 0) {
+	switch(sign(moveY)) {
+		case 1: facing = dir.down; break
+		case -1: facing = dir.up; break
+	}
+}
+else {
+	facing = -1
+}
+
+//SPRITE MANAGMENT ****************************************************
+switch(facing) {
+	case dir.up: sprite_index = spr_Amos_Up; break
+	case dir.down: sprite_index = spr_Amos_Down; break
+	case dir.left: sprite_index = spr_Amos_Left; break
+	case dir.right: sprite_index = spr_Amos_Right; break
+	case -1: image_index = 0; break;
+}
+
+
 //APPLY MOVEMENT
 
 if(canMove) {
@@ -36,22 +63,5 @@ if(canMove) {
 	y += moveY
 }
 
-//Setting animation based on movement
-if(moveX < 0) {
-	sprite_index = spr_Amos_Left	
-}
 
-else if(moveX > 0) {
-	sprite_index = spr_Amos_Right
-}
-
-else if(moveY > 0) {
-	sprite_index = spr_Amos_Down	
-}
-
-else if(moveY < 0) {
-	sprite_index = spr_Amos_Up
-}
-
-else image_index = 0
 

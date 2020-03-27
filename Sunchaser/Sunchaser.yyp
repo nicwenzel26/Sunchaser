@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "91370988-1054-460b-be55-52407639c47a",
+            "Value": {
+                "id": "65081f5c-9189-4eb1-8749-6db2508296bc",
+                "resourcePath": "objects\\game\\game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "95dd9e4c-7b86-4671-94a7-ede0b855de8b",
             "Value": {
                 "id": "d5790837-fd80-4261-a5d7-67e4958f8257",
@@ -396,6 +404,14 @@
                 "id": "dfe5479b-0106-445b-b2ca-7e8f35830046",
                 "resourcePath": "sprites\\spr_Hyperion_Up\\spr_Hyperion_Up.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d3263537-b1d8-4ad1-8b2d-984b7777fde9",
+            "Value": {
+                "id": "bc51e3f5-1c08-4eaf-99d0-638940a4f23b",
+                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

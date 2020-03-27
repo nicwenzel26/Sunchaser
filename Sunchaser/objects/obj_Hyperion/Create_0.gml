@@ -1,3 +1,4 @@
+event_inherited()
 //SPEEDS OF OVERWORLD MOVEMENT
 walkingSpeed = 1
 normalSpeed = 2
@@ -14,6 +15,8 @@ moveY = 0
 
 
 //COMBAT STATS
-your_turn = false
 current_hp = 10
 total_hp = 10
+your_turn = false
+attack_power = 3
+chance_mod = 50

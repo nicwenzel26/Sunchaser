@@ -1,9 +1,21 @@
+//COMBAT
+if(room == CombatRoom && your_turn) {
+	if(keyboard_check_pressed(vk_space)) {
+		Attack(attack_power,chance_mod, combat.en[combat.current_en])
+		your_turn = false
+	}
+}
+	
+
+
 //APPLY MOVEMENT
 
 if(canMove) {
 	x += moveX
 	y += moveY
 }
+
+
 
 //Setting animation based on movement
 if(moveX < 0) {

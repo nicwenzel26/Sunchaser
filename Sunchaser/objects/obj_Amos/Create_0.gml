@@ -1,3 +1,5 @@
+
+
 //SPEEDS OF OVERWORLD MOVEMENT
 walkingSpeed = 1
 normalSpeed = 2

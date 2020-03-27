@@ -2,8 +2,9 @@ if(room == CombatRoom) {
 	sprite_index = spr_Amos_Right_Still
 	
 	//COMBAT
-	if(keyboard_check_pressed(vk_space)) {
-		Attack(attack_power,chance_mod, AG2)
+	if(keyboard_check_pressed(vk_space) && your_turn) {
+		Attack(attack_power,chance_mod, combat.en[combat.current_en])
+		your_turn = false
 	}
 	
 	exit

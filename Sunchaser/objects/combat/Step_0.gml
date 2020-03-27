@@ -2,9 +2,7 @@ if(obj_Amos.your_turn || obj_Paratheana.your_turn || obj_Hyperion.your_turn) {
 	players_turn = true
 }
 
-else {
-	players_turn = false
-}
+
 
 
 //Changes the selected enemy
@@ -27,4 +25,13 @@ if(players_turn) {
 		}
 		en[current_en].selected = true
 	}
+	
+	if(players[current_player].your_turn == false) {
+		current_player += 1
+		if(current_player >= array_length_1d(players)) {
+			current_player = 0	
+		}
+		players[current_player].your_turn = true
+	}
+
 }

@@ -1,3 +1,8 @@
+if(room == CombatRoom) {
+	sprite_index = spr_Amos_Right_Still
+	exit
+}
+
 //UPDATE INPUT
 inputLeft = keyboard_check(ord("A"))
 inputRight = keyboard_check(ord("D"))

@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_AlienGuard",
     "eventList": [
-        
+        {
+            "id": "6cc33f54-c993-4533-9c58-a6a86cc58ccb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "76e65870-8de5-4fc5-ba55-41cca1e873c1"
+        },
+        {
+            "id": "6b5e708c-1861-49f1-be22-381f3ce3acbe",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "76e65870-8de5-4fc5-ba55-41cca1e873c1"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

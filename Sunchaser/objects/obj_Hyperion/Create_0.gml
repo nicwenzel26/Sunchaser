@@ -10,3 +10,10 @@ canMove = true
 
 moveX = 0
 moveY = 0
+
+
+
+//COMBAT STATS
+your_turn = true
+current_hp = 10
+total_hp = 10

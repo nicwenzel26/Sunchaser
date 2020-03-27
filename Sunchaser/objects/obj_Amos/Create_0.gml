@@ -16,3 +16,9 @@ trans_facing_after = -1
 trans_facing_before = -1
 
 facing = 0
+
+
+//COMBAT STATS
+your_turn = true
+current_hp = 12
+total_hp = 12

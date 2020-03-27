@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "114317cb-68f4-486d-b4bf-5c0affe9904c",
+            "Value": {
+                "id": "60c2e5eb-95a2-4959-910e-97067526b2f1",
+                "resourcePath": "sprites\\spr_current_player\\spr_current_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "208fa8ae-9e97-4f24-bd63-2864ae0668b1",
             "Value": {
                 "id": "df12fd0e-67ec-46b6-a6d4-b11788296aa3",
@@ -140,6 +148,14 @@
                 "id": "9cc843e0-1994-4e41-91ec-70129f24dad5",
                 "resourcePath": "objects\\obj_Hyperion\\obj_Hyperion.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "423b260e-76e4-4c13-8fb3-a57d93220127",
+            "Value": {
+                "id": "a376da98-d96d-47ee-9043-b13c195995d2",
+                "resourcePath": "sprites\\spr_Amos_Right_Still\\spr_Amos_Right_Still.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -431,6 +447,22 @@
             }
         },
         {
+            "Key": "c4144a4c-da9f-4559-acfe-a1f387d4605d",
+            "Value": {
+                "id": "7c50b3fb-8cd1-4499-8499-ab9f959d627a",
+                "resourcePath": "sprites\\spr_Alien_Guard_Left_Still\\spr_Alien_Guard_Left_Still.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c6bc8b55-a40e-4bc8-a22f-89ff17f2da71",
+            "Value": {
+                "id": "c6d469ea-63f3-42b3-bc0e-9ef5320378cf",
+                "resourcePath": "objects\\combat\\combat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cb42a297-9ae8-4c09-950a-b2c1e6aa2d99",
             "Value": {
                 "id": "1b4b945f-6350-4e1b-9524-c0e77b9f62c3",
@@ -519,11 +551,35 @@
             }
         },
         {
+            "Key": "f46ff95e-b3f4-44bd-80f4-42dba9e8b8b1",
+            "Value": {
+                "id": "b5925202-d95a-4334-b45f-b2b6515394ab",
+                "resourcePath": "views\\f46ff95e-b3f4-44bd-80f4-42dba9e8b8b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6b05fcc-8299-4ab1-8f2f-dab0aa535a1c",
+            "Value": {
+                "id": "edd6e4d9-6f3b-4734-986e-803839abb781",
+                "resourcePath": "objects\\object9\\object9.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fbf4b44c-2ad5-44c5-bb34-3b28ae6cdf67",
             "Value": {
                 "id": "10f25408-c80d-4b40-8de2-ef1cbef6293e",
                 "resourcePath": "views\\fbf4b44c-2ad5-44c5-bb34-3b28ae6cdf67.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fcc8ac54-df44-426d-b76b-7e8e45205b6a",
+            "Value": {
+                "id": "f1b5c172-1d04-40be-8fe6-1e2ea47ad6cc",
+                "resourcePath": "fonts\\fnt_hp\\fnt_hp.yy",
+                "resourceType": "GMFont"
             }
         }
     ],

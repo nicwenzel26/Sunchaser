@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "0433b101-ef0a-4140-9fbc-ee35f3e07fef",
+            "Value": {
+                "id": "772b0067-88d1-4884-b681-d478e03c7b04",
+                "resourcePath": "objects\\objTranition\\objTranition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0a113c61-a9f8-4359-848b-3395b377ae9f",
+            "Value": {
+                "id": "62652bc6-76a7-4c1f-a42c-cd76489d5345",
+                "resourcePath": "rooms\\TownRoom\\TownRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0e4527c2-d7fb-41dc-9747-17e55b71ed3e",
             "Value": {
                 "id": "74f4ef15-7940-4dba-997e-b936b363cb0b",
@@ -167,6 +183,14 @@
             }
         },
         {
+            "Key": "5278fc02-2c80-43cb-b030-4d9954364c16",
+            "Value": {
+                "id": "71d9d80e-e993-4068-81ba-4898309fa783",
+                "resourcePath": "tilesets\\tsExterior\\tsExterior.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "5c84a1ba-b6f0-446c-8b10-3b6a0422487d",
             "Value": {
                 "id": "d11a887b-c5bc-4fd9-9537-7b1839445837",
@@ -236,6 +260,14 @@
                 "id": "e5830ef0-abf7-4497-84e6-c54c530501fd",
                 "resourcePath": "rooms\\AlphaRoom\\AlphaRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7e72efab-83a0-4ec0-b01f-473793f6f068",
+            "Value": {
+                "id": "8230e930-82db-4750-93fd-be9c200ac46d",
+                "resourcePath": "tilesets\\tsTown\\tsTown.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -359,6 +391,14 @@
             }
         },
         {
+            "Key": "b1c11a8a-7272-4871-bbd1-ec9b1578e5cf",
+            "Value": {
+                "id": "dad93947-7981-4416-9769-79ad76df6a68",
+                "resourcePath": "sprites\\sprTown\\sprTown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b490f00c-28fd-45c8-93d7-401e2b4acf1e",
             "Value": {
                 "id": "28ed3fd5-00ad-4acb-a2bd-fffa31af52a4",
@@ -403,6 +443,14 @@
             "Value": {
                 "id": "dfe5479b-0106-445b-b2ca-7e8f35830046",
                 "resourcePath": "sprites\\spr_Hyperion_Up\\spr_Hyperion_Up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d005ec6b-1999-469c-a854-d53879145c07",
+            "Value": {
+                "id": "f6d3a477-7b83-4beb-a568-b33c416e7960",
+                "resourcePath": "sprites\\sprExterior\\sprExterior.yy",
                 "resourceType": "GMSprite"
             }
         },

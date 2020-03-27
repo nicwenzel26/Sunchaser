@@ -6,7 +6,8 @@
     "children": [
         "bad75376-cdb3-4df6-be4e-42086a3c4236",
         "91370988-1054-460b-be55-52407639c47a",
-        "a8651d62-8c7a-4792-9527-87cb10ba6873"
+        "a8651d62-8c7a-4792-9527-87cb10ba6873",
+        "0433b101-ef0a-4140-9fbc-ee35f3e07fef"
     ],
     "filterType": "GMObject",
     "folderName": "Meta Objects",

@@ -12,15 +12,42 @@
         "7c0a0ae7-0c05-463f-b654-31b3f33c3e4a",
         "01a2aa76-51ef-47cf-9ec8-2243934272f4",
         "bbd7b376-f225-4590-82a2-6e02a42e5240",
-        "51be04a9-56b8-4cfd-a25b-bb4e6b624e4f"
+        "51be04a9-56b8-4cfd-a25b-bb4e6b624e4f",
+        "5dc8daad-cc69-433f-b204-44ec3677033f"
     ],
     "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Transition",
+            "id": "6266e719-366e-483c-b94e-3d7ad41b802c",
+            "depth": 0,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_6022CDA5","id": "5dc8daad-cc69-433f-b204-44ec3677033f","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_6022CDA5.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6022CDA5","objId": "0433b101-ef0a-4140-9fbc-ee35f3e07fef","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 128,"y": 320}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances",
             "id": "ba2d9784-d5c3-49ce-a020-f179d32dc830",
-            "depth": 0,
+            "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -50,7 +77,7 @@
         {
             "name": "Terrain",
             "id": "c4b05807-984b-4dd1-bf68-38f879720e95",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -64,7 +91,7 @@
                     "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
                     "name": "T_Ground",
                     "id": "d898fb14-4739-4508-871d-8a99c6b1504b",
-                    "depth": 200,
+                    "depth": 300,
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
@@ -137,7 +164,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

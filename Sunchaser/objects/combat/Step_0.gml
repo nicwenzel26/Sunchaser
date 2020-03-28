@@ -2,7 +2,14 @@ if(obj_Amos.your_turn || obj_Paratheana.your_turn || obj_Hyperion.your_turn) {
 	players_turn = true
 }
 
+if(Amos.current_hp == 0 && Para.current_hp == 0 && Hyp.current_hp == 0) {
+	all_dead = true
+	exit	
+}
 
+if(all_en_dead){
+	exit
+	}
 
 
 //Changes the selected enemy
@@ -30,14 +37,18 @@ if(players_turn) {
 		current_player += 1
 		if(current_player >= array_length_1d(players)) {
 			current_player = 0
-			
 			//ENEMY TURN
 			
 			var i;
 			for(i = 0; i < array_length_1d(en); i += 1) {
 				if(en[i].current_hp > 0) {
+					all_en_dead = false
 					var j = choose(0,1,2)
 					Attack(en[i].attack_power, en[i].chance_mod, players[j] )
+				}
+				
+				else {
+					all_en_dead = true
 				}
 			}
 			

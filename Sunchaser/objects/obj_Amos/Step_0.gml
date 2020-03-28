@@ -1,5 +1,6 @@
 if(room == CombatRoom) {
 	sprite_index = spr_Amos_Right_Still
+	facing = dir.right
 	
 	//COMBAT
 	if(your_turn && current_hp > 0) {

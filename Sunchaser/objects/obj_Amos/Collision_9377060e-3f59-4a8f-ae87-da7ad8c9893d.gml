@@ -6,7 +6,7 @@ trans_facing_after = other.player_facing_after
 trans_facing_before = other.player_facing_before
 
 with(game) {
-	if(obj_Amos.facing == obj_Amos.trans_facing_after) {
+	if(obj_Amos.facing == obj_Amos.trans_facing_before) {
 		if(!do_transition) {
 			spawn_room = obj_Amos.target
 			spawn_x = obj_Amos.start_x

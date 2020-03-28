@@ -2,6 +2,9 @@ if(room == CombatRoom) {
 	sprite_index = spr_Alien_Guard_Left_Still
 }
 
+else {
+	sprite_index = spr_Alien_Gaurd_Down_Still
+}
 selected = false
 
 total_hp = 10

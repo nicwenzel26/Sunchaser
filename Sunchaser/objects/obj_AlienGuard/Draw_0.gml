@@ -9,3 +9,7 @@ if(room == CombatRoom) {
 	}
 	draw_self()
 }
+
+else {
+	draw_self()
+}

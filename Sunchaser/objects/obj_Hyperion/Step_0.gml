@@ -9,7 +9,8 @@ if(room == CombatRoom && your_turn && current_hp > 0) {
 else {
 	your_turn = false
 }
-	
+
+
 
 
 //APPLY MOVEMENT

@@ -1,6 +1,8 @@
 randomize()
 room_goto_next()
 
+global.text_offset = 20
+
 //Getting the gui height and width to cover the whole screen
 gui_width = display_get_gui_width()
 gui_height = display_get_gui_height()
@@ -20,6 +22,7 @@ spawn_player_facing = -1
 //Vars for players start location
 spawn_x = 0
 spawn_y = 0
+
 
 //Enum to handle the players direction
 

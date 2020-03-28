@@ -14,6 +14,8 @@ moveY = 0
 
 
 
+
+
 //COMBAT STATS
 current_hp = 10
 total_hp = 10

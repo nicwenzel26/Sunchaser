@@ -2,8 +2,8 @@ if(close && !done_talking) {
 	draw_rectangle_color(0, gui_height - 200, gui_width, gui_height, c_black, c_black, c_black, c_black, false)
 	draw_text(global.text_offset, gui_height - 180, "PARA: Cap, are you sure this is a good idea?")
 	
-	draw_text(global.text_offset, gui_height - 100, " - This guy has been enslaving these people for far to long, we have to help them. [1]")
-	draw_text(global.text_offset, gui_height - 80, " - We are getting paid, so shut it and lets get it done. [2]")
+	draw_text(global.text_offset, gui_height - 100, " [1] This guy has been enslaving these people for far to long, we have to help them.")
+	draw_text(global.text_offset, gui_height - 80, " [2] We are getting paid, so shut it and lets get it done.")
 	
 	if(keyboard_check_pressed(ord("1"))) {
 		answer_one = true

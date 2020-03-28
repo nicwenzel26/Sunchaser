@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1e1ab2ea-2f9c-48c9-88f6-4e225d206133",
+            "Value": {
+                "id": "46daf270-5406-4710-af0c-2c6dc4fa2518",
+                "resourcePath": "fonts\\fnt_menu\\fnt_menu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "208fa8ae-9e97-4f24-bd63-2864ae0668b1",
             "Value": {
                 "id": "df12fd0e-67ec-46b6-a6d4-b11788296aa3",
@@ -547,6 +555,14 @@
             "Value": {
                 "id": "c6d469ea-63f3-42b3-bc0e-9ef5320378cf",
                 "resourcePath": "objects\\combat\\combat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c9262b6c-4f20-4a5b-b61f-eee921072d5a",
+            "Value": {
+                "id": "1d0df8e5-726b-476e-9835-f089ce700a80",
+                "resourcePath": "objects\\menu\\menu.yy",
                 "resourceType": "GMObject"
             }
         },

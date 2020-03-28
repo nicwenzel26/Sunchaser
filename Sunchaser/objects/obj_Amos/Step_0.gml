@@ -18,6 +18,12 @@ if(room == CombatRoom) {
 }
 
 
+if(menu.show_menu) {
+	image_index = 0
+	exit
+}
+
+
 //UPDATE INPUT
 inputLeft = keyboard_check(ord("A"))
 inputRight = keyboard_check(ord("D"))

@@ -5,8 +5,8 @@ if(close && !done_talking) {
 	
 	draw_rectangle_color(0, gui_height - 200, gui_width, gui_height, c_black, c_black, c_black, c_black, false)
 	draw_text(global.text_offset, gui_height -180, "HYPERION: I think we should kill the Baron and just get it over with")
-	draw_text(global.text_offset, gui_height - 100, " - I don't think so, we should here what he has to say first [1]")
-	draw_text(global.text_offset, gui_height - 80, " - I agree, let's get this done so we can go home. [2]")
+	draw_text(global.text_offset, gui_height - 100, " [1] I don't think so, we should here what he has to say first")
+	draw_text(global.text_offset, gui_height - 80, " [2] I agree, let's get this done so we can go home. ")
 	
 	if(keyboard_check_pressed(ord("1"))) {
 		answer_one = true

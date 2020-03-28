@@ -29,7 +29,18 @@ if(players_turn) {
 	if(players[current_player].your_turn == false) {
 		current_player += 1
 		if(current_player >= array_length_1d(players)) {
-			current_player = 0	
+			current_player = 0
+			
+			//ENEMY TURN
+			
+			var i;
+			for(i = 0; i < array_length_1d(en); i += 1) {
+				if(en[i].current_hp > 0) {
+					var j = choose(0,1,2)
+					Attack(en[i].attack_power, en[i].chance_mod, players[j] )
+				}
+			}
+			
 		}
 		players[current_player].your_turn = true
 	}

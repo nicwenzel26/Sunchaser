@@ -6,5 +6,8 @@ chance_hit = random_range(1, 100)
 
 if(chance_hit >= chance_mod) {
 	target.current_hp -= attack_power
+	if(target.current_hp < 0) {
+		target.current_hp = 0
+	}
 }
 	

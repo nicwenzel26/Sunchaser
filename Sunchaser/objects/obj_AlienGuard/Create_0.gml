@@ -6,4 +6,5 @@ selected = false
 
 total_hp = 10
 current_hp = 10
-atk_power = 2
+attack_power= 3
+chance_mod = 40

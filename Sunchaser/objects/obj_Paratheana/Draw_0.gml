@@ -5,7 +5,7 @@ if( room == CombatRoom) {
 	draw_set_font(fnt_hp)
 	draw_text_color(x, y-45, string(current_hp) + "/" + string(total_hp), c_red, c_red, c_red, c_red, 1)
 	
-	if(your_turn) {
+	if(your_turn && current_hp > 0) {
 		draw_sprite(spr_current_player, 0, x, y)
 	}
 }

@@ -45,6 +45,7 @@ if(show_menu) {
 		}
 		
 		switch(global.para_realationship) {
+			case -1: para_stat = "Neutral"; break
 			case 0: para_stat = "Neutral"; break
 			case 1: para_stat = "Neutral"; break
 			case 2:	para_stat = "Freindly"; break
@@ -84,5 +85,5 @@ if(show_menu) {
 		}
 	}
 	
-	
+	draw_set_halign(fa_left)
 }

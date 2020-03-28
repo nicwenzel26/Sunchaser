@@ -1,8 +1,8 @@
+
 if(close && !done_talking) {
-	gui_width = display_get_gui_width()
-	gui_height = display_get_gui_height()
 	
-	
+	draw_set_halign(fa_left)
+	draw_set_font(fnt_menu)
 	draw_rectangle_color(0, gui_height - 200, gui_width, gui_height, c_black, c_black, c_black, c_black, false)
 	draw_text(global.text_offset, gui_height -180, "HYPERION: I think we should kill the Baron and just get it over with")
 	draw_text(global.text_offset, gui_height - 100, " [1] I don't think so, we should here what he has to say first")
@@ -30,6 +30,7 @@ if(close && !done_talking) {
 		draw_rectangle_color(0, gui_height - 200, gui_width, gui_height, c_black, c_black, c_black, c_black, false)	
 		draw_text(global.text_offset, gui_height - 180, "HYPERION: I am glad you concur with my assesment.")
 		draw_text(global.text_offset, gui_height - 160, "Hyperion Liked That")
+		global.hyperion_realationship += 1
 		draw_text(global.text_offset, gui_height - 20, "Press Enter to Continue")
 		if(keyboard_check_pressed(vk_enter)) {
 			done_talking = true

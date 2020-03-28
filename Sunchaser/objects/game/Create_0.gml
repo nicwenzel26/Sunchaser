@@ -2,10 +2,7 @@ randomize()
 room_goto_next()
 
 global.text_offset = 20
-global.hyperion_realationship = 0
-global.para_realationship = 0
-global.blue_sun_realationship = 0
-global.red_moons_realationship = 0
+
 
 
 

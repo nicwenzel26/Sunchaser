@@ -35,7 +35,7 @@ if(show_menu) {
 	}
 	
 	if(show_status) {
-		switch(global.hyperion_realationship) {
+		switch(hyperion_realationship) {
 			case 0: hyperion_stat = "Neutral"; break
 			case 1: hyperion_stat = "Neutral"; break
 			case 2: hyperion_stat = "Freindly"; break
@@ -44,7 +44,7 @@ if(show_menu) {
 			case 5: hyperion_stat = "Steadfast"; break
 		}
 		
-		switch(global.para_realationship) {
+		switch(para_realationship) {
 			case -1: para_stat = "Neutral"; break
 			case 0: para_stat = "Neutral"; break
 			case 1: para_stat = "Neutral"; break
@@ -54,7 +54,7 @@ if(show_menu) {
 			case 5: para_stat = "Steadfast"; break
 		}
 		
-		switch(global.blue_sun_realationship) {
+		switch(blue_sun_realationship) {
 			case 0: blue_stat = "Neutral"; break
 			case 1: blue_stat = "Neutral"; break
 			case 2:	blue_stat = "Freindly"; break
@@ -63,7 +63,7 @@ if(show_menu) {
 			case 5: blue_stat = "Steadfast"; break
 		}
 		
-		switch(global.red_moons_realationship) {
+		switch(red_moons_realationship) {
 			case 0: red_stat = "Neutral"; break
 			case 1: red_stat = "Neutral"; break
 			case 2:	red_stat = "Freindly"; break

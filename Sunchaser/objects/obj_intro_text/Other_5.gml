@@ -1,0 +1,1 @@
+audio_sound_gain(msc_start, 0, 500)

@@ -17,6 +17,11 @@ if(room == CombatRoom) {
 	exit
 }
 
+if(room == InsideShip) {
+	sprite_index = spr_Amos_Right_Still
+	exit
+}
+
 
 if(menu.show_menu) {
 	image_index = 0

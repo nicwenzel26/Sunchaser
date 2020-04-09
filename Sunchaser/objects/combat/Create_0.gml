@@ -6,14 +6,20 @@ if(room == CombatRoom) {
 	
 }
 
+if(room == CombatRoom_Landed) {
+	en[0] = AG_Landed1
+	en[1] = AG_LANDED2
+	en[2] = HG1
+}
+
 //Getting the gui height and width to cover the whole screen
 gui_width = display_get_gui_width()
 gui_height = display_get_gui_height()
 
 current_player = 0
-players[0] = Amos
-players[1] = Hyp
-players[2] = Para
+players[0] = obj_Amos
+players[1] = obj_Hyperion
+players[2] = obj_Paratheana
 
 
 current_en = 0

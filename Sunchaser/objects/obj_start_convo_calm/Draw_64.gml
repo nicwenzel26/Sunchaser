@@ -8,5 +8,5 @@ draw_text(global.text_offset, gui_height - 20, "Press Enter to Land on Helios")
 if(keyboard_check_pressed(vk_enter)) {
 	menu.para_realationship += .5
 	menu.hyperion_realationship -= .5
-	room_goto(TownRoom)
+	room_goto(LandedOnHelios)
 }

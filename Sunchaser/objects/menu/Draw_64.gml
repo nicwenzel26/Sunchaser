@@ -1,4 +1,14 @@
-if(keyboard_check_pressed(vk_escape)) {
+switch(room) {
+	case startRoom: in_convo = true; break;
+	case introCutRoom: in_convo = true; break;
+	case InsideShip: in_convo = true; break;
+	case LandedOnHelios: in_convo = true; break;
+	default: in_convo = false; break;
+}
+
+
+
+if(keyboard_check_pressed(vk_escape) && !in_convo) {
 	show_menu = !show_menu	
 }
 
@@ -36,6 +46,9 @@ if(show_menu) {
 	
 	if(show_status) {
 		switch(hyperion_realationship) {
+			case -3: hyperion_stat = "Hated"; break
+			case -2: hyperion_stat = "Disliked"; break;
+			case -1: hyperion_stat = "Nerutral"; break;
 			case 0: hyperion_stat = "Neutral"; break
 			case 1: hyperion_stat = "Neutral"; break
 			case 2: hyperion_stat = "Freindly"; break

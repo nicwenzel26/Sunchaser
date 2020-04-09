@@ -1,0 +1,1 @@
+sprite_index = spr_Alien_Guard_Left_Still

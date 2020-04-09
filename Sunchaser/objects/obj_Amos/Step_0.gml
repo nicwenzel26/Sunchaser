@@ -1,4 +1,4 @@
-if(room == CombatRoom) {
+if(room == CombatRoom || room == CombatRoom_Landed) {
 	sprite_index = spr_Amos_Right_Still
 	facing = dir.right
 	
@@ -27,6 +27,19 @@ if(menu.show_menu) {
 	image_index = 0
 	exit
 }
+
+if(room == LandedOnHelios) {
+	sprite_index = spr_Amos_Right
+	if(x < 150) {
+		x+= playerSpeed
+	}
+
+	else {
+		image_index = 0 
+	}
+	exit
+}
+	
 
 
 //UPDATE INPUT

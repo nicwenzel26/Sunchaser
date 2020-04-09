@@ -2,7 +2,7 @@ if(obj_Amos.your_turn || obj_Paratheana.your_turn || obj_Hyperion.your_turn) {
 	players_turn = true
 }
 
-if(Amos.current_hp == 0 && Para.current_hp == 0 && Hyp.current_hp == 0) {
+if(obj_Amos.current_hp == 0 && obj_Paratheana.current_hp == 0 && obj_Hyperion.current_hp == 0) {
 	all_dead = true
 	exit	
 }

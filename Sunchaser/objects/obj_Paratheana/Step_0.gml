@@ -1,6 +1,6 @@
 
 //COMBAT
-if(room == CombatRoom && your_turn && current_hp > 0) {
+if((room == CombatRoom || room == CombatRoom_Landed) && your_turn && current_hp > 0) {
 	if(keyboard_check_pressed(vk_space)) {
 		Attack(attack_power,chance_mod, combat.en[combat.current_en])
 		your_turn = false

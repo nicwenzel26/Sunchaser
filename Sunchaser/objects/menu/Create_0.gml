@@ -2,6 +2,8 @@ show_menu = false
 show_controls = false
 show_status = false
 
+in_convo = false
+
 //Getting the gui height and width to cover the whole screen
 gui_width = display_get_gui_width()
 gui_height = display_get_gui_height()

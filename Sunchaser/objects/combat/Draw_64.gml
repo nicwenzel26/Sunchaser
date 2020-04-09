@@ -20,5 +20,8 @@ if(all_en_dead) {
 	
 	if(keyboard_check_pressed(vk_enter)) {
 		instance_activate_layer("Transition")
+		if(room == CombatRoom_Landed) {
+			room_goto(TownRoom)
+		}
 	}
 }

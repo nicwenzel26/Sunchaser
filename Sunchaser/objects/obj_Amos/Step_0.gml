@@ -39,6 +39,12 @@ if(room == LandedOnHelios) {
 	}
 	exit
 }
+
+if(room == EndRoom) {
+	sprite_index = spr_Amos_Down
+	image_index = 0
+	exit
+}
 	
 
 

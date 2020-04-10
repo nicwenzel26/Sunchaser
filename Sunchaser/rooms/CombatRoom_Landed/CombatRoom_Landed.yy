@@ -107,8 +107,8 @@
                     "m_parentID": "d898fb14-4739-4508-871d-8a99c6b1504b",
                     "m_serialiseFrozen": false,
                     "modelName": "GMRTileLayer",
-                    "prev_tileheight": 0,
-                    "prev_tilewidth": 0,
+                    "prev_tileheight": 32,
+                    "prev_tilewidth": 32,
                     "mvc": "1.0",
                     "tiles": {
                         "SerialiseData": null,

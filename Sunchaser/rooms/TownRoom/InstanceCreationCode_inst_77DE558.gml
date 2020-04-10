@@ -5,3 +5,5 @@ target_y = 730
 
 player_facing_after = dir.up
 player_facing_before = dir.up
+
+audio_stop_sound(msc_Baron)

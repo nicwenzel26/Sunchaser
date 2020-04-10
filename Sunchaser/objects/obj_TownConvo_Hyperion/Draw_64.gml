@@ -1,4 +1,4 @@
-if(close && !doneTalking) {
+if(close && !global.dont_talking_Hyp_Town) {
 	draw_set_halign(fa_left)
 	draw_set_font(fnt_text)
 	
@@ -23,7 +23,7 @@ if(close && !doneTalking) {
 		draw_text(global.text_offset, gui_height - 100, "Hyperion Hated That")
 		draw_text(global.text_offset, gui_height - 20, "Press Enter to Exit")
 		if(keyboard_check_pressed(vk_enter)) {
-			doneTalking = true	
+			global.dont_talking_Hyp_Town = true	
 			menu.hyperion_realationship -= 3
 		}
 	}
@@ -34,7 +34,7 @@ if(close && !doneTalking) {
 		draw_text(global.text_offset, gui_height - 100, "Hyperion Loved That")
 		draw_text(global.text_offset, gui_height - 20, "Press Enter to Exit")
 		if(keyboard_check(vk_enter)) {
-			doneTalking = true	
+			global.dont_talking_Hyp_Town = true
 			menu.hyperion_realationship += 3
 		}
 	}

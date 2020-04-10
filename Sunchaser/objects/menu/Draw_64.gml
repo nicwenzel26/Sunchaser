@@ -45,50 +45,41 @@ if(show_menu) {
 	}
 	
 	if(show_status) {
-		switch(hyperion_realationship) {
-			case -3: hyperion_stat = "Hated"; break
-			case -2: hyperion_stat = "Disliked"; break;
-			case -1: hyperion_stat = "Nerutral"; break;
-			case 0: hyperion_stat = "Neutral"; break
-			case 1: hyperion_stat = "Neutral"; break
-			case 2: hyperion_stat = "Freindly"; break
-			case 3: hyperion_stat = "Freindly"; break
-			case 4: hyperion_stat = "Loyal" ; break
-			case 5: hyperion_stat = "Steadfast"; break
-		}
 		
+		if(hyperion_realationship >= 0 && hyperion_realationship < 2) hyperion_stat = "Neutral"
+		if(hyperion_realationship >=2 && hyperion_realationship <= 4) hyperion_stat = "Friendly"
+		if(hyperion_realationship >= 5 && hyperion_realationship < 6) hyperion_stat = "Loyal"
+		if(hyperion_realationship < 0 && hyperion_realationship > -3) hyperion_stat = "Disliked"
 		if(hyperion_realationship <= -3) hyperion_stat = "Hated"
-		if(hyperion_realationship >= 5) hyperion_stat = "Steadfast"
-		if(para_realationship <= -2) para_stat = "Hated"
-		if(para_realationship >= 5) para_stat = "Steadfast"
+		if(hyperion_realationship >= 6) hyperion_stat = "Steadfast"
 		
-		switch(para_realationship) {
-			case -1: para_stat = "Neutral"; break
-			case 0: para_stat = "Neutral"; break
-			case 1: para_stat = "Neutral"; break
-			case 2:	para_stat = "Freindly"; break
-			case 3: para_stat = "Freindly"; break
-			case 4: para_stat = "Loyal" ; break
-			case 5: para_stat = "Steadfast"; break
-		}
 		
-		switch(blue_sun_realationship) {
-			case 0: blue_stat = "Neutral"; break
-			case 1: blue_stat = "Neutral"; break
-			case 2:	blue_stat = "Freindly"; break
-			case 3: blue_stat = "Freindly"; break
-			case 4: blue_stat = "Loyal" ; break
-			case 5: blue_stat = "Steadfast"; break
-		}
+		if(para_realationship >= 0 && para_realationship < 2) para_stat = "Neutral"
+		if(para_realationship >=2 && para_realationship <= 4) para_stat = "Friendly"
+		if(para_realationship >= 5 && para_realationship < 6) para_stat = "Loyal"
+		if(para_realationship < 0 && para_realationship > -3) para_stat = "Disliked"
+		if(para_realationship <= -3) para_stat = "Hated"
+		if(para_realationship >= 6) para_stat = "Steadfast"
 		
-		switch(red_moons_realationship) {
-			case 0: red_stat = "Neutral"; break
-			case 1: red_stat = "Neutral"; break
-			case 2:	red_stat = "Freindly"; break
-			case 3: red_stat = "Freindly"; break
-			case 4: red_stat = "Loyal" ; break
-			case 5: red_stat = "Steadfast"; break
-		}
+		
+		if(blue_realationship >= 0 && blue_realationship < 2) blue_stat = "Neutral"
+		if(blue_realationship >=2 && blue_realationship <= 4) blue_stat = "Friendly"
+		if(blue_realationship >= 5 && blue_realationship < 6) blue_stat = "Loyal"
+		if(blue_realationship < 0 && blue_realationship > -3) blue_stat = "Disliked"
+		if(blue_realationship <= -3) blue_stat = "Hated"
+		if(blue_realationship >= 6) blue_stat = "Steadfast"
+		
+
+
+		if(red_realationship >= 0 && red_realationship < 2) red_stat = "Neutral"
+		if(red_realationship >=2 && red_realationship <= 4) red_stat = "Friendly"
+		if(red_realationship >= 5 && red_realationship < 6) red_stat = "Loyal"
+		if(red_realationship < 0 && red_realationship > -3) red_stat = "Disliked"
+		if(red_realationship <= -3) red_stat = "Hated"
+		if(red_realationship >= 6) red_stat = "Steadfast"
+		
+
+
 		
 		draw_rectangle_color(20, 20, gui_width - 20, gui_height - 20, c_black, c_black, c_black, c_black, false)
 		draw_text(gui_width/2, gui_height/8, "HYPERION: " + hyperion_stat )

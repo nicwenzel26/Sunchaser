@@ -15,5 +15,5 @@ red_stat = "Neutral"
 
 hyperion_realationship = 0
 para_realationship = 0
-blue_sun_realationship = 0
-red_moons_realationship = 0
+blue_realationship = 0
+red_realationship = 0

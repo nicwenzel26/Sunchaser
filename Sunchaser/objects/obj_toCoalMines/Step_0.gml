@@ -1,0 +1,1 @@
+close = CheckIfClose(obj_toCoalMines, obj_Amos)

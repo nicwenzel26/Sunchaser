@@ -1,0 +1,1 @@
+close = CheckIfClose(obj_Amos, obj_toSlums)

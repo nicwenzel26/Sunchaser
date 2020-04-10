@@ -1,0 +1,1 @@
+close = CheckIfClose(obj_Cant_Go_This_Way, obj_Amos)

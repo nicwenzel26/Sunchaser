@@ -9,6 +9,6 @@ draw_text(global.text_offset, gui_height - 20, "Press Enter to Enter The Town")
 
 if(keyboard_check_pressed(vk_enter)) {
 	room_goto(TownRoom)
-	menu.para_realationship += 1
+	menu.para_realationship += 2
 	menu.hyperion_realationship -= 2 
 }

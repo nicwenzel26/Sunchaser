@@ -57,6 +57,11 @@ if(show_menu) {
 			case 5: hyperion_stat = "Steadfast"; break
 		}
 		
+		if(hyperion_realationship <= -3) hyperion_stat = "Hated"
+		if(hyperion_realationship >= 5) hyperion_stat = "Steadfast"
+		if(para_realationship <= -2) para_stat = "Hated"
+		if(para_realationship >= 5) para_stat = "Steadfast"
+		
 		switch(para_realationship) {
 			case -1: para_stat = "Neutral"; break
 			case 0: para_stat = "Neutral"; break

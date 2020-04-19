@@ -1,7 +1,10 @@
 
 //COMBAT
+//If the room is a combat room check to see if it is this characters turn 
 if((room == CombatRoom || room == CombatRoom_Landed) && your_turn && current_hp > 0) {
+	//If it is this characters turn then check if they attacked
 	if(keyboard_check_pressed(vk_space)) {
+		//Attack the selected enemy 
 		Attack(attack_power,chance_mod, combat.en[combat.current_en])
 		your_turn = false
 	}

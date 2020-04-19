@@ -1,6 +1,8 @@
 //COMBAT
+//If the room is a combat room check if the space bar is pressed
 if((room == CombatRoom || room == CombatRoom_Landed) && your_turn && current_hp > 0) {
 	if(keyboard_check_pressed(vk_space)) {
+		//If the spacebar is pressed then attack the selected enemy 
 		Attack(attack_power,chance_mod, combat.en[combat.current_en])
 		your_turn = false
 	}
@@ -14,7 +16,6 @@ else {
 
 
 //APPLY MOVEMENT
-
 if(canMove) {
 	x += moveX
 	y += moveY

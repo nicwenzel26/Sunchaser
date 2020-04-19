@@ -1,4 +1,4 @@
-event_inherited()
+
 //SPEEDS OF OVERWORLD MOVEMENT
 walkingSpeed = 1
 normalSpeed = 2
@@ -8,7 +8,7 @@ playerSpeed = normalSpeed
 
 canMove = true
 
-
+//Initial move varibales 
 moveX = 0
 moveY = 0
 

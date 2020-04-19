@@ -1,3 +1,4 @@
+//Let the player know they cant go this direction 
 draw_set_halign(fa_left)
 draw_set_font(fnt_text)
 

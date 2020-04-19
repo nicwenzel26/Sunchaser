@@ -1,4 +1,5 @@
-
+//Move to the target room if the player collides with the objTransition object
+//Only hapens when the player is facing the correct direction 
 target = other.target_room
 start_x = other.target_x
 start_y = other.target_y

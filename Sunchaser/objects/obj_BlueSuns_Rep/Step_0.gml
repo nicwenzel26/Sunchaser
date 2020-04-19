@@ -1,3 +1,5 @@
+
+//Move character up to specific point
 if(y > 256) {
 	y-= obj_Amos.playerSpeed	
 }

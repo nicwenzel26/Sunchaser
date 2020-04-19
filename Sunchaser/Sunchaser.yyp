@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "6b32b7e1-b43d-4c18-82cb-7fa59ebf5ff2",
+            "Value": {
+                "id": "8e79ff31-70e5-4e3d-81e2-de3d22f5f339",
+                "resourcePath": "sounds\\snd_Rumage\\snd_Rumage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6e7bbbb8-fd53-4b58-9891-8af146218a78",
             "Value": {
                 "id": "e52e8fd6-eeeb-471a-a1a2-093cb2532321",

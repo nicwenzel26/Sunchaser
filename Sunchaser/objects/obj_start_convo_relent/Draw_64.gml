@@ -1,3 +1,4 @@
+//RELENT CUT SCENCE
 draw_rectangle_color(0, gui_height - 200, gui_width, gui_height, c_black, c_black, c_black, c_black, false)
 draw_text(global.text_offset, gui_height - 180, "Thank you Sunchaser, land and prepare for a search upon landing.")
 draw_text(global.text_offset, gui_height - 140, "Hyperion: This could result in major altercation what is your instruction Captain.")

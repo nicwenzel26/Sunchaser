@@ -1,4 +1,4 @@
-
+//HYPERION CONVERSATION IN BARONS CHAMBER
 if(close && !global.done_talking_Hyp_Alpha) {
 	
 	draw_set_halign(fa_left)

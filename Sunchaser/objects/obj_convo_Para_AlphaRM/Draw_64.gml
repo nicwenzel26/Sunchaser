@@ -1,3 +1,4 @@
+//PARATHEANA CONVERSATION IN THE BARONS CHAMBER
 if(close && !global.done_talking_Para_Alpha) {
 	draw_set_font(fnt_text)
 	draw_set_halign(fa_left)

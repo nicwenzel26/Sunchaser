@@ -1,3 +1,4 @@
+//HYPERION CONVERSATION IN TOWN
 if(close && !global.dont_talking_Hyp_Town) {
 	draw_set_halign(fa_left)
 	draw_set_font(fnt_text)

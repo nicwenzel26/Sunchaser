@@ -1,3 +1,5 @@
+//INTRO CUTSCENE TEXT
+
 draw_set_halign(fa_left)
 draw_set_font(fnt_text)
 draw_rectangle_color(0, gui_height - 200, gui_width, gui_height, c_black, c_black, c_black, c_black, false)

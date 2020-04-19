@@ -1,3 +1,1 @@
-Enemies do not disapear when the fight is over
-Conversations Reset when the players leaves the room
 No combat animations

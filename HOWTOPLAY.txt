@@ -1,0 +1,7 @@
+WASD - MOVE
+NUM KEYS - SELECT OPTION
+ESC - ENTER MENU
+SPACE - ATTACK
+ARROWS - SELECT TARGET IN COMBAT
+
+In Open World Sections Click on Characters To Talk With Them
